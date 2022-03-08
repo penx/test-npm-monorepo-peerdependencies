@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "package1",
+    "package2"
+  ],
+  "dependencies": {
+    "package2": "^1.0.0",
+    "package1": "^1.0.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/test-npm-monorepo-peerdependencies.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/penx/test-npm-monorepo-peerdependencies/issues"
+  },
+  "homepage": "https://github.com/penx/test-npm-monorepo-peerdependencies#readme",
+  "description": ""
+}
